@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script languages="JavaScript" src="commonfun.js"></script>
+<meta charset="ISO-8859-1">
+<title>Test Mart Application</title>
+</head>
+<body>
+<form action="/TestMartClient/ProductCatalogServlet" method="post">
+
+
+<h2> <b><u> <center>TEST MART</center> </u></b></h2>
+
+<table class="table table-bordered" border="0" width="80%" align="center">
+	<tr>
+	<td><br><b>Product Name: </b></td>
+	<td><br><input type="text" name="txtProduct" size="100"></td>
+</tr>
+
+<tr>
+	<td><br><b>Product Price : </b></td>
+	<td>
+	<br>
+	<div class="input-group">
+ 
+  <input type="text" class="form-control" name="txtPrice" >
+  <span class="input-group-addon">$</span>
+</div>
+	</td>
+</tr>	
+<tr>
+	<td><br><b>In Stock : </b></td>
+	<td><br><input type="text" name="txtStock" size="20"></td>
+</tr>	
+
+<tr>
+				<td><BR><b>Item Category : </b></td>
+				<td><BR><select name="category">
+				<option value="">
+	
+					<option value="10000">BOOKS
+					<option value="10001">APPAREL
+					<option value="10002">MUSIC
+					<option value="10003">MOBILES
+					<option value="10004">MOVIES
+					
+					
+				</td>
+	</tr>
+
+
+
+</table>
+ <br>
+
+
+<table class=".layout" border="0" width="50%" align="center">
+
+	<tr>
+		<td align="center">		
+		<input type="submit" name="AddItem" value="Add Item" ></input></td>
+	</tr>
+	</table>
+	<br><br>
+	<table class="table table-bordered" width="70%" align="center">
+
+	<tr>
+	<td><b>Add New Item Category : </b></td>
+	<td align="center">		
+	
+		<input type="text" name="CategoryText" size="30"></input></td>
+		<td align="center">		
+		<input type="submit" name="AddCategory" value="Add Category" ></input></td>
+	
+	</tr>
+
+</table>
+</form>
+
+</body>
+</html>

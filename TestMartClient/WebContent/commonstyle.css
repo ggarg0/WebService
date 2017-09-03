@@ -1,0 +1,119 @@
+/* Style definition for body tag */
+BODY 
+{
+	FONT-SIZE: 9pt; 
+	FONT-FAMILY: sans-serif, Verdana, Tahoma; 
+	TEXT-ALIGN: left;
+	BACKGROUND-COLOR:  #E2D974;
+}
+
+
+/* Style definition for p tag */
+P
+{
+	FONT-SIZE: 12pt;
+	MARGIN: 0px 0px 0pt; 
+	COLOR: #3A3A3A;
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+}
+
+/* Style definitions for headings */
+.heading1
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 28pt; 
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+	COLOR: #284224;
+	LETTER-SPACING: 3pt;
+}
+
+.heading2
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 22pt;
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+	COLOR: #2D5028;
+	LETTER-SPACING: 3pt;
+}
+
+.heading3
+{
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 18pt;
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+	COLOR: #4B781E;
+	LETTER-SPACING: 3pt;
+}
+
+
+/* Style definitions for table */
+TABLE
+{
+	BACKGROUND-COLOR:#CAD676;
+}
+
+TABLE.layout
+{
+	BACKGROUND-COLOR:#E2D974;
+}
+
+TD {
+	COLOR: #284224; 
+	FONT-SIZE: 14pt;
+	FONT-FAMILY: sans-serif, Verdana, Tahoma;
+}
+
+
+/* Style for  links */
+A:link
+{
+	COLOR: #3333ff; 
+	LETTER-SPACING: 3pt;    
+	TEXT-DECORATION: underline;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+
+A:visited {
+	COLOR: purple;
+	LETTER-SPACING: 3pt;    
+	TEXT-DECORATION: underline;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+A:active 
+{
+	COLOR: green; 
+	LETTER-SPACING: 3pt;    
+	TEXT-DECORATION: underline;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+
+A:hover 
+{
+	COLOR: red;
+	LETTER-SPACING: 2pt;    
+	TEXT-DECORATION: none;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: Comic Sans MS; 
+}
+
+
+/* Style for Form elements */
+INPUT,SELECT,TEXTAREA
+{
+	FONT-FAMILY: Tahoma, sans-serif, Verdana;
+	COLOR:#284224;
+	FONT-SIZE:12pt;
+}
+
+/* Style for Mandatory field(*) */
+
+.mandatory
+{
+	COLOR: red;
+	FONT-SIZE: 16pt;
+	/*FONT-WEIGHT: bold;
+	border:thick dotted red;*/
+}
